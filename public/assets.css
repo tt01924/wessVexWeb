@@ -1,0 +1,32 @@
+body {
+    background-image: url('blueprintBackground.png');
+    background-size: cover; /* This ensures the image covers the entire background */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-attachment: fixed; /* This makes the background image stay fixed when you scroll */
+    background-position: center; /* This centers the background image */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #a4a4a4;
+}
+
+
+.square {
+    width: 25%;
+    height: 25%;
+    margin: 6%;
+    margin-top: 1%;
+}
+
+.two {
+    margin-left: -30%;
+}
+
+.trapezoid {
+	border-bottom: 500px solid #555;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	height: 0px;
+	width: 500px;
+    transform: rotate(-90deg);
+}
