@@ -1,0 +1,24 @@
+body {
+    background-color: #a4a4a4;
+}
+
+
+.square {
+    width: 25%;
+    height: 25%;
+    margin: 6%;
+    margin-top: 1%;
+}
+
+.two {
+    margin-left: -30%;
+}
+
+.trapezoid {
+	border-bottom: 500px solid #555;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	height: 0px;
+	width: 500px;
+    transform: rotate(-90deg);
+}
