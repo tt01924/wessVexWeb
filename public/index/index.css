@@ -1,0 +1,18 @@
+body {
+    background-color: #a4a4a4;
+}
+
+.logo {
+    height: 95vh;
+    margin-top: -70vh;
+    margin-left: 50vh;
+}
+
+button {
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    background-color: black;
+    color: #a4a4a4;
+    /* outline: 0px; */
+}
