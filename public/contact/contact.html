@@ -11,36 +11,50 @@
         <h1>Contact</h1>
 
         <h2>Please fill out the below information:</h2>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Touching briefly across the digital cosmos</legend>
+                    <div class="contact__fields">
+                        <div class="field">
+                            <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[Name]" value="" placeholder="Name">
+                            <label class="field__label" for="ContactForm-name">Name</label>
+                        </div>
 
-        <form>
-            <fieldset>
-                <legend>Touching briefly across the digital cosmos</legend>
-                <div class="contact__fields">
-                    <div class="field">
-                        <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[Name]" value="" placeholder="Name">
-                        <label class="field__label" for="ContactForm-name">Name</label>
-                    </div>
+                        <div class="field field--with-error">
+                            <input autocomplete="email" type="email" id="ContactForm-email" class="field__input" name="contact[email]" spellcheck="false" autocapitalize="off" value="" aria-required="true" placeholder="Email">
+                            <label class="field__label" for="ContactForm-email">Email <span aria-hidden="true"></span></label>
+                        </div>
 
-                    <div class="field field--with-error">
-                        <input autocomplete="email" type="email" id="ContactForm-email" class="field__input" name="contact[email]" spellcheck="false" autocapitalize="off" value="" aria-required="true" placeholder="Email">
-                        <label class="field__label" for="ContactForm-email">Email <span aria-hidden="true">*</span></label></div>
-                    </div>
+                        <div class="field">
+                            <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[Phone number]" pattern="[0-9\-]*" value="" placeholder="Phone number">
+                            <label class="field__label" for="ContactForm-phone">Cellular</label>
+                        </div>
 
-                    <div class="field">
-                        <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[Phone number]" pattern="[0-9\-]*" value="" placeholder="Phone number">
-                        <label class="field__label" for="ContactForm-phone">Cellular</label>
-                    </div>
-
-                    <div class="field">
-                        <textarea rows="10" id="ContactForm-body" class="text-area field__input" name="contact[Comment]" placeholder="Comment"></textarea>
-                        <label class="form__label field__label" for="ContactForm-body">Enquiry</label>
-                    </div>
-                    <div class="contact__button">
-                        <button type="submit" class="button">
-                        Send
-                        </button>
-                    </div>
-            </fieldset>
-        </form>
+                        <div class="field">
+                            <textarea rows="10" id="ContactForm-body" class="text-area field__input" name="contact[Comment]" placeholder="Enquiry"></textarea>
+                            <label class="form__label field__label" for="ContactForm-body">Enquiry</label>
+                        </div>
+                        <div class="contact__button">
+                            <button type="submit" class="button">
+                            Send
+                            </button>
+                        </div>
+                </fieldset>
+            </form>
+        </section>
+        
+        <section>
+            <h3>Process</h3>
+            <p>Wess Vex. A creative endevour by Dexter Vex to share passions and creations here, today.<br>
+                Wess Vex grows to embody city culture; the abstract beauty of being one lost amongst millions that eat, sleep, and breath around you. A brand for those who prefer the un-aesthetic, that enjoy the muck and dirt of the city imperfection which hums. A provider of quality and stylistic streetwear for the ones who deserve to enjoy it and should.<br>
+                Raised on a Northern English farm to festering in Amsterdam; we're certainly not from Paris madame.<br>
+                Founded in 2021 so you can find Wess Vex now and long into the future.</p>
+        </section>
+            <h3>Subscribe to only the most Wessly updates</h3>
+            <div class="field field--with-error">
+                <input autocomplete="email" type="email" id="ContactForm-email" class="field__input" name="contact[email]" spellcheck="false" autocapitalize="off" value="" aria-required="true" placeholder="Email">
+                <label class="field__label" for="ContactForm-email">Email <span aria-hidden="true"></span></label>
+            </div>
     </body>
 </html>
