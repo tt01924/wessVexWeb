@@ -2,3 +2,52 @@ body {
     background-color: #a4a4a4;
 }
 
+h1 {
+    font-size: 81px;
+    margin-left: -25%;
+    margin-top: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+h4 {
+    font-size: 81px;
+    margin-left: -25%;
+    margin-top: -10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 50vh; /* Full viewport height */
+    margin: 5%
+}
+
+form {
+    width: 100%;
+    max-width: 500px; /* Adjust the max-width as needed */
+    padding: 20px;
+    background-color: #c0c0c0; /* Optional: background color for the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adding a shadow to the form */
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+.field__input,
+.text-area,
+.button {
+    width: 100%;
+}
+
+textarea {
+    width: 70%;
+}
