@@ -2,26 +2,70 @@ body {
     background-color: #a4a4a4;
 }
 
-h1 {
-    font-size: 81px;
-    margin-left: -25%;
-    margin-top: -2%;
+.return {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+}
+
+.return button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #778899;
+    border: none;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adding a shadow to the form */
+    z-index: 1;
+}
+
+/**************** Title style **************/
+.heading-container {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0.8;
+    height: 20vh; /* Adjust as needed */
+}
+
+h1, h4 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0; /* Remove default margins */
+}
+
+h1 {
+    font-size: 60px;
+    opacity: 0.5;
 }
 
 h4 {
     font-size: 81px;
-    margin-left: -25%;
-    margin-top: -10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
+/* ********************* */
+
+.return {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+}
+
+.return button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #778899;
+    border: none;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adding a shadow to the form */
+}
+
+
+
+/*************** Submission styling ****************/
 .container {
     display: flex;
     justify-content: center; /* Center horizontally */
