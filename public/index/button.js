@@ -6,8 +6,8 @@ document.getElementById('assets').onclick = function () {
     window.location.href = '../assets/assets.html';
 };
 
-document.getElementById('freelance').onclick = function () {
-    window.location.href = '../freelance/freelance.html';
+document.getElementById('hiring').onclick = function () {
+    window.location.href = '../hiring/hiring.html';
 };
 
 document.getElementById('policies').onclick = function () {
