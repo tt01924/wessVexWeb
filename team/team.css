@@ -1,11 +1,13 @@
 body {
     background-color: #eee7df;
+    overflow: hidden;
 }
 
 .mainContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .containerOne, .containerTwo, .containerThree, .containerFour {
@@ -19,6 +21,9 @@ body {
     height: 15vw;
     background-color: #272624;
     margin-bottom: 6vw;
+    background-image: url('demo.jpeg'); 
+    background-size: cover; 
+    /* background-position: center;  */
 }
 
 .textOne {
@@ -32,6 +37,9 @@ body {
     height: 20vw;
     background-color: #272624;
     margin-bottom: 6vw;
+    background-image: url('demo.jpeg'); 
+    background-size: cover; 
+    /* background-position: center;  */
 }
 
 .textTwo {
@@ -45,6 +53,9 @@ body {
     height: 25vw;
     background-color: #272624;
     margin-bottom: 6vw;
+    background-image: url('demo.jpeg'); 
+    background-size: cover; 
+    /* background-position: center;  */
 }
 
 .textThree {
@@ -58,6 +69,9 @@ body {
     height: 30vw;
     background-color: #272624;
     margin-bottom: 6vw;
+    background-image: url('demo.jpeg'); 
+    background-size: cover; 
+    /* background-position: center;  */
 }
 
 .textFour {
