@@ -1,2 +1,2 @@
 # wessVexWeb
-Working with a client to provide them with an interactive website.
+Building a creative agency website that provides portfolios for young creatives who need to showcase their work!
