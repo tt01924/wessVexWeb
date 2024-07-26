@@ -26,6 +26,14 @@ body {
     position: relative;
 }
 
+.nameOne {
+    width: 5vw;
+    height: 6vw;
+    background-color: #272624;
+    position:absolute;
+    top: 20vw;
+}
+
 .textOne {
     width: 5vw;
     height: 35vw;
@@ -42,6 +50,14 @@ body {
     background-size: cover; 
     align-items: flex-end;
     position: relative;
+}
+
+.nameTwo {
+    width: 9vw;
+    height: 10vw;
+    background-color: #272624;
+    position:absolute;
+    top: 16vw;
 }
 
 .textTwo {
@@ -62,6 +78,14 @@ body {
     position: relative;
 }
 
+.nameThree {
+    width: 12vw;
+    height: 13vw;
+    background-color: #272624;
+    position:absolute;
+    top: 12vw;
+}
+
 .textThree {
     width: 12vw;
     height: 45vw;
@@ -78,6 +102,14 @@ body {
     background-size: cover; 
     align-self: flex-end;
     position: relative;
+}
+
+.nameFour {
+    width: 15vw;
+    height: 16vw;
+    background-color: #272624;
+    position:absolute;
+    top: 9vw;
 }
 
 .textFour {
