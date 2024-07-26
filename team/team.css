@@ -1,0 +1,121 @@
+body {
+    background-color: #eee7df;
+    overflow: hidden;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.containerOne, .containerTwo, .containerThree, .containerFour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileOne {
+    width: 10vw;
+    height: 10vw;
+    background-color: #272624;
+    background-image: url('demo.jpeg'); 
+    background-size: cover; 
+    align-items: flex-end;
+    position: relative;
+}
+
+.nameOne {
+    width: 5vw;
+    height: 6vw;
+    background-color: #272624;
+    position:absolute;
+    top: 20vw;
+}
+
+.textOne {
+    width: 5vw;
+    height: 35vw;
+    background-color: #272624;
+    position: absolute;
+    top: 30vw;
+}
+
+.profileTwo {
+    width: 15vw;
+    height: 15vw;
+    background-color: #272624;
+    background-image: url('demo.jpeg'); 
+    background-size: cover; 
+    align-items: flex-end;
+    position: relative;
+}
+
+.nameTwo {
+    width: 9vw;
+    height: 10vw;
+    background-color: #272624;
+    position:absolute;
+    top: 16vw;
+}
+
+.textTwo {
+    width: 9vw;
+    height: 40vw;
+    background-color: #272624;
+    position: absolute;
+    top: 30vw;
+}
+
+.profileThree {
+    width: 20vw;
+    height: 20vw;
+    background-color: #272624;
+    background-image: url('demo.jpeg'); 
+    background-size: cover; 
+    align-self: flex-end;
+    position: relative;
+}
+
+.nameThree {
+    width: 12vw;
+    height: 13vw;
+    background-color: #272624;
+    position:absolute;
+    top: 12vw;
+}
+
+.textThree {
+    width: 12vw;
+    height: 45vw;
+    background-color: #272624;
+    position: absolute;
+    top: 30vw;
+}
+
+.profileFour {
+    width: 25vw;
+    height: 25vw;
+    background-color: #272624;
+    background-image: url('demo.jpeg'); 
+    background-size: cover; 
+    align-self: flex-end;
+    position: relative;
+}
+
+.nameFour {
+    width: 15vw;
+    height: 16vw;
+    background-color: #272624;
+    position:absolute;
+    top: 9vw;
+}
+
+.textFour {
+    width: 15vw;
+    height: 50vw;
+    background-color: #272624;
+    position: absolute;
+    top: 30vw;
+}
